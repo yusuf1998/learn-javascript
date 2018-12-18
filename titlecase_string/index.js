@@ -8,7 +8,7 @@ function titleCase(char) {
     alert(result);
 }
 
-var char = prompt("masukkan kata yang ingin di titlecase");
+var char = prompt("Masukkan kata yang ingin di titlecase");
 var cond = confirm(`Proses ?`);
 if (cond == true) {
     titleCase(char);

@@ -1,8 +1,8 @@
-var first_name = "Yusuf";
-var last_name = "Habibi";
+var firstName = "Yusuf";
+var lastName = "Habibi";
 
-var lowerFirstName = first_name.toLowerCase();
-var lowerLastName = last_name.toLowerCase();
+var lowerFirstName = firstName.toLowerCase();
+var lowerLastName = lastName.toLowerCase();
 
 console.log(lowerFirstName);
 console.log(lowerLastName);
