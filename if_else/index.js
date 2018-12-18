@@ -1,5 +1,5 @@
 var nama = prompt("Masukan nama anda:");
-var cond = confirm(`Hai ${n} Apakah saya tampan?`);
+var cond = confirm(`Hai ${nama} Apakah saya tampan?`);
 if (cond == true) {
     alert('Oke Terimakasih!!');
 } else {
