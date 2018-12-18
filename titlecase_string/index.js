@@ -1,17 +1,17 @@
-function titleCase(str) {
-    str = str.toLowerCase();
-    str = str.split(' ');
-    for (var i = 0; i < str.length; i++) {
-        str[i] = str[i].charAt(0).toUpperCase() + str[i].slice(1);
+function titleCase(char) {
+    char = char.toLowerCase();
+    char = char.split(' ');
+    for (var i = 0; i < char.length; i++) {
+        char[i] = char[i].charAt(0).toUpperCase() + char[i].slice(1);
     }
-    var result = str.join(' ');
+    var result = char.join(' ');
     alert(result);
 }
 
-var str = prompt("masukkan kata yang ingin di titlecase");
+var char = prompt("masukkan kata yang ingin di titlecase");
 var cond = confirm(`Proses ?`);
 if (cond == true) {
-    titleCase(str);
+    titleCase(char);
 } else {
     alert('Dibatalkan');
 }
