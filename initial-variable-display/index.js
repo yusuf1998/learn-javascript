@@ -62,9 +62,11 @@ const allNames = [
   22,
   "Mr. Hakim"
 ];
+
 console.log(`Before : `)
 console.log(allNames);
 console.log(`After : `)
+
 names.forEach(function (elementName) {
   let fixName = "";
   if (typeof (elementName) == "string")

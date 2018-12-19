@@ -10,7 +10,7 @@ const names = [
 
 function searchName(str) {
     let result = names.filter(
-        names => names.includes(str)
+        names => names.toLowerCase().includes(str.toLowerCase())
     );
     return result;
 }
