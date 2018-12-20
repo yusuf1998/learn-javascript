@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Mathematics</title>
+</head>
+
+<body>
+    <h1>Calculator</h1>
+
+    <body>
+        <form name=”form”>
+            <table border=”1″ cellspacing=”1″ cellpadding=”1″>
+                <tr>
+                    <h3>Program Kalkulator</h3>
+                </tr>
+                <tr>
+                    <td><b>Bilangan 1</b></td>
+                    <td>=</td>
+                    <td width=”150″><input type="number" id="text-input1" size=”15″></td>
+                </tr>
+                </tr>
+                <tr>
+                    <td><b>Bilangan 2</b></td>
+                    <td>=</td>
+                    <td width=”150″><input type="number" id="text-input2" size=”15″></td>
+                </tr>
+                <tr>
+                    <td><b>Hasil</b></td>
+                    <td>=</td>
+                    <td width=”150″><input type=”number” id="text-result" disabled=”true” size=”15″></td>
+                </tr>
+                <tr>
+                    <td colspan=”4″ align=”center”>
+                        <input type="button" value=”+” onclick="math.addition()" />
+                        <input type="button" value=”-” onclick="math.substrack()" />
+                        <input type="button" value=”*” onclick="math.multiply()" />
+                        <input type="button" value=”/” onclick="math.divide()" />
+                        <input type="button" value=”%” onclick="math.modulo()" />
+                        <input type="button" value=”^” onclick="math.power()" />
+
+                </tr>
+                </td>
+        </form>
+    </body>
+    <script src="index.js"></script>
+</body>
+
+</html>
