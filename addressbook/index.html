@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Address Book</title>
+</head>
+
+<body>
+    <fieldset>
+        <legend>Adding a Contact</legend>
+
+        <div>
+            Nick Name: <input type="text" id="nickName" />
+            First Name: <input type="text" id="firstName" />
+            Last Name: <input type="text" id="lastName" />
+            Gender: <input type="text" id="gender" />
+            email: <input type="email" id="email" />
+            phone: <input type="text" id="phone" />
+            country: <input type="text" id="country" />
+            province: <input type="text" id="province" />
+            city: <input type="text" id="city">
+            zip: <input type="text" id="zip">
+            <input type="button" value="Add Contact" onClick="addContact();" />
+        </div>
+    </fieldset>
+    <fieldset>
+        <legend>Get Contacts</legend>
+        <input type="button" value="Get Address Book" onclick="address.getAddressBook();" />
+
+        <div id="contact-list"> Contacts: </div>
+    </fieldset>
+    <fieldset>
+        <legend>Removing a Contact</legend>
+
+        <div>
+            Contact Id: <input type="text" id="contact_id" required />
+            <input type="button" value="Remove Contact" onClick="removeContact();" />
+        </div>
+    </fieldset>
+    <script src="index.js"></script>
+</body>
+
+</html>
